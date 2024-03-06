@@ -1,0 +1,7 @@
+{
+    "RECIPIENT_EMAIL": "test@example.com",
+    "WEBSITE_URLS": [
+	"https://example.com",
+	"http://another-example.com"
+    ]
+}
