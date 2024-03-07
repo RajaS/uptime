@@ -125,7 +125,7 @@ def main():
         SENDMAIL = False
         
     now = datetime.now().strftime("%d-%m-%Y %H:%M")
-    logfile = open('log.txt', 'w')
+    logfile = open('log.txt', 'a')
     
     config = load_config("config.json")
     if config:
